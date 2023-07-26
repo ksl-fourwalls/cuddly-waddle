@@ -11,6 +11,7 @@ body {
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 20px;
+  padding-top: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   width: 380px;
 }
@@ -19,11 +20,16 @@ body {
 	text-align: center;
 }
 
+.wrapper {
+	display: table;
+	margin: 0 auto;
+}
+
 
 label {
   font-weight: bold;
   display: inline-grid;
-  width: 42%;
+  width: 48%;
 }
 
 input {

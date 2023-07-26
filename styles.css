@@ -8,24 +8,31 @@ body {
 }
 
 .container {
-  text-align: center;
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+
 label {
   font-weight: bold;
-  margin-right: 10px;
+  display: inline-grid;
+  width: 42%;
 }
 
 input {
   padding: 5px;
   margin-bottom: 10px;
+  display: inline-grid;
+  width: 45%;
 }
 
 button {
+  display: table;
+  margin: 0 auto;
+  margin-top: 15px;
+
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
